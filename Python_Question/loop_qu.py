@@ -83,5 +83,17 @@
 
 
 # Q.9) Seprate each digit of a number and print it on the new line -------------------9.0)
+# a = int(input("Enter number --"))
+# while a > 0:
+#     print(a%10)
+#     a = a//10
 
-
+# Q.10 --------------------------------------------------------------------10.0)
+# a = int(input("Enter number --"))
+# copy = a
+# ch = 0
+# while a > 0:
+#     z = a%10
+#     ch = ch * 10 + z
+#     a = a//10
+# print(ch)
