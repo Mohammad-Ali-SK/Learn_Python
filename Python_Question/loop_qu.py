@@ -97,3 +97,6 @@
 #     ch = ch * 10 + z
 #     a = a//10
 # print(ch)
+
+# Home Work Question--------------------------
+# n = int(input("Enter the number-"))
