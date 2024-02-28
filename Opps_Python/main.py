@@ -71,3 +71,32 @@
 
 # print(ninja.G)
 
+
+# Lets see Polymorphism--------------------------------------------
+
+
+
+
+# class Animal:
+#     def __init__(self,name):
+#      self.name = name
+     
+#     def showname(self):
+#          print(self.name)
+
+# class Human(Animal):
+#     def showname(self):
+#         print(self.name)
+
+
+# Monkey = Animal('Monkey')
+# Monkey.showname()
+# Rohit = Human('Rohitk-jkjj')
+# Rohit.showname()
+
+
+
+
+# Let's See Abstraction. in python ---------------------
+
+
