@@ -89,3 +89,55 @@
 
 # Question -----------------------------------------------------------------2.1)
 # Accept list element and reprint it
+# l = []
+# count = int(input("Enter how many number are you wnat - -"))
+# for i in range(count):
+#     z = int(input("Enter the number -- "))
+#     l.append(z)
+# print(l)
+
+# Question list item in revers order ------------------------------2.2)
+
+# l = []
+# count = int(input("Enter the counter ----"))
+
+# for i in range(count):
+#     z = int(input("Enter the number ---"))
+#     l.append(z)
+# print(l)
+
+# v = []
+# for i in range(len(l) -1, -1, -1):
+#     v.append(l[i])
+
+# print(v)
+
+# Question ----------------------------------------------2.3)
+# Print positive and negative elements of an list in seprate list
+# a = [1,-3, 2, 8 , -8, 9, -5]
+# pos = []
+# neg = []
+# for i in range(1, len(a)):
+#     if a[i] > 0:
+#         pos.append(a[i])
+#     elif a[i] < 0:
+#         neg.append(a[i])
+#     else:
+#         print("Nothig here")
+# print(pos)
+# print(neg)
+
+# Question ----------------------------------- 2.4)
+# Find the greatest elemnet and print its index too.
+# list = [2, 96, 89, 19 , 165]
+# m = 0
+# index = 0
+
+# for i in range(len(list)):
+#     if list[i] > m:
+#         m = list[i]
+#         index = i
+
+# print(m, index)
+
+

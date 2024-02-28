@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_889450d0cdf507e409fe0a2eef117b87 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_889450d0cdf507e409fe0a2eef117b87" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_889450d0cdf507e409fe0a2eef117b87 = L.map(
+                "map_889450d0cdf507e409fe0a2eef117b87",
+                {
+                    center: [22.3511148, 78.6677428],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f89a3e03032a39d0d8d88e2683facf18 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_f89a3e03032a39d0d8d88e2683facf18.addTo(map_889450d0cdf507e409fe0a2eef117b87);
+        
+    
+            var marker_43a60d0682b2745b6e8bed1896b0d3e6 = L.marker(
+                [22.3511148, 78.6677428],
+                {}
+            ).addTo(map_889450d0cdf507e409fe0a2eef117b87);
+        
+    
+        var popup_7b62ddae50c381a6cd3c76f18d6fb7d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_303c6eab0d668982b588e5fa15b4c325 = $(`<div id="html_303c6eab0d668982b588e5fa15b4c325" style="width: 100.0%; height: 100.0%;">India</div>`)[0];
+                popup_7b62ddae50c381a6cd3c76f18d6fb7d6.setContent(html_303c6eab0d668982b588e5fa15b4c325);
+            
+        
+
+        marker_43a60d0682b2745b6e8bed1896b0d3e6.bindPopup(popup_7b62ddae50c381a6cd3c76f18d6fb7d6)
+        ;
+
+        
+    
+</script>
+</html>
