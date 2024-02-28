@@ -100,3 +100,8 @@
 # Let's See Abstraction. in python ---------------------
 
 
+# from abc import ABC , abstractmethod
+
+# class shape:
+
+
