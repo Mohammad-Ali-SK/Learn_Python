@@ -130,6 +130,7 @@
 # Question ----------------------------------- 2.4)
 # Find the greatest elemnet and print its index too.
 # list = [2, 96, 89, 19 , 165]
+
 # m = 0
 # index = 0
 
@@ -140,4 +141,99 @@
 
 # print(m, index)
 
+# QUestion ------------------------------------------------------2.5)
+# Find the second gretest number
+# a = [12, 33, 89, 67, 900, 677, 45,9778, 99, 786]
+# max = 0
+# max2 = 0
+# index = 0
+# index2  = 0
 
+# for i in range(len(a)):
+#     if a[i] > max:
+#         max2 = max
+#         max = a[i]
+#         index2 = index
+#         index = i
+#     elif a[i] > max2:
+#         max2 = a[i]
+#         index2 = i
+# print(max , index)
+# print(max2, index2)
+
+# Question -----------------------------------------------2.6)
+# Check if list is sorted or not
+# a = [1,2,3,4,5,6,7]
+# for i in range(len(a)-1):
+#     if a[i] < a[i + 1]:
+#         continue
+#     else:
+#         print("Your list is not sorted")
+#         break
+# else:
+#     print("Your list is shorted")
+
+# Question --------------------------------------------2.7)
+
+# Pallindromic list - write a program to check if element of an list are samee or not it read from front or backExamle :
+
+# list = [2,3,15,15,3,2]
+# list_2 = []
+# for i in range(len(list) - 1, -1, -1):
+#     list_2.append(list[i])
+# if list == list_2:
+#     print("Pallindromic")
+# else:
+#     print("Not a pallindromic")
+
+# Question -----------------------------------------------2.8)
+# How many seprate elements are there in the list excluding repetation.
+
+
+
+# Dictionary Questiion in python ---------------------------------------------------------
+
+# Question ----------------------------------------------- 1.0)
+# Write a python script to merge two python dictionaries.
+
+# a = {1:10,2:20,3:30,4:40}
+# b = {7:70,8:80,9:90}
+# c = a
+# c.update(b)
+# print(c)
+
+
+# Question ---------------------------------------------- 2.0)
+# Write a python program to sum all the values in a dictionary.
+ 
+# dis = {1:10,2:30,5:90}
+# sum = 0
+# for i in dis.values():
+#     sum = sum + i
+    
+# print(sum)
+
+
+# Question ------------------------------------------------3.0)
+# count the frequency of each elements in a list
+# a = [1,2,3,3,5,2,13,5,1,2,4,1,2,4,13,2,13,22,4,2,3,1,13,4,2,4,2]
+# dict = {}
+# for i in a:
+#     if i in dict.keys():
+#         dict[i] = dict[i] + 1
+#     else:
+#         dict[i] = 1
+# print(dict)
+
+
+# Question ------------------------------------------------------4.0)
+# Write a python program to combibe two dictionary by addding values for common keys
+a = {1:10,2:20,3:30,4:40}
+b = {7:70,2:80,9:90}
+
+for i in b.keys():
+    if i in a.keys():
+        a[i] = a[i] + b[i]
+    else:
+        a[i] = b[i]
+print(a)

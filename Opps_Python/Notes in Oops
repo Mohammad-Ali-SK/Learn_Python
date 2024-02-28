@@ -1,0 +1,38 @@
+# Types of programming------
+# 1. Imperative
+# 2.Functional
+# 3.Object Oriented
+
+# 4 plars of program --- Encapsulation , Abstraction , Polymorphism , Inheritance
+
+
+# What is Class ?------------------------
+# A class is a blueprint for creating object.
+
+# what is Object ?
+# Object are instances of classes.
+
+# -> Matlab seedhi bhasa mai ek class ka use krke uske bacche banana
+
+
+
+# What is Encapsulation ?--------------------
+# ->I programing , encapsulation is about keeping some information(data) safe and only letting it be changed or looked at in specific ways.
+
+
+
+# What is Polymorphism ? ---------------------
+# -> Polymorphism means having many forms.
+# -> Matlab eak he cheez diffrent tasks perform kar paa raha hai.
+
+
+# What is Inheritance ? --------------------
+# -> when one class inherits some features from another class this phenomena is know as inheritance.
+# -> eak class jab doosri class se cheeze transfer karta hai usko inheritance kahete hai.
+# Ex - Parents - child
+
+
+# What is Abstraction ? --------------------
+# -> When we only see the essential part of our code and hides the rest is the process of Abstraction.
+# Ex - Plug Board , Shipping Box(Amazome, Flipl kart)
+
