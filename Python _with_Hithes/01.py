@@ -103,8 +103,8 @@
 # Question 4,, Reverse String ------------------------------------------4.)
 
 # name = "Mohammad ALi sk"
+# name2 = ''
 # for i in range(len(name) -1, -1,-1):
 #     print(name[i])
-
-
 # Question 5, 
+

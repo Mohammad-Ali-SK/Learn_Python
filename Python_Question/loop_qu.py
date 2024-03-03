@@ -100,3 +100,34 @@
 
 # Home Work Question--------------------------
 # n = int(input("Enter the number-"))
+
+# n = int(input('Enter the number__'))
+# sum = 0
+# for i in range(1,n):
+#     if n%i == 0:
+#         sum = sum + i
+# print(sum)
+
+# a = int(input('Enter number__'))
+# count = 0
+
+# for i in range(1,a+1):
+#     if a%i == 0:
+#         count = count + 1
+# if count == 2:
+#     print('Prime')
+# else:
+#     print('Cons')
+
+
+# n = int(input('Enter the number__-'))
+
+# a = int(input("Please tell your number  -")) 
+# a = 132
+# copy = a
+# rev= 0
+# while a > 0:
+#     z = a%10
+#     rev= rev*10 + z
+#     a = a//10
+# print(rev)
