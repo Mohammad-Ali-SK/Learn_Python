@@ -25,10 +25,7 @@
 #     def hello():
 #         print("Hellow World")
     
-# obj = Fac
-
-# print(obj.a)
-# obj.hello()
+# obj = Fac()
 
 # Constractor ----------------------------------
 
@@ -37,13 +34,13 @@
 #         self.BT = BT
 #         self.ET = ET
 #         self.TY = TY
-#     def helo(self):
+#     def show_details(self):
 #         print(f'Details is Body {self.BT} and Enging is {self.ET} types and Tyers is {self.TY}')
 
 # Ferari = Factory('Coverd', '5 Cycle', 9)
 # Ninja = Factory('Open', '13 cycle', 2)
-# Ninja.helo()
-# Ferari.helo()
+# Ninja.show_details()
+# Ferari.show_details()
 
 #   
 
@@ -104,4 +101,17 @@
 
 # class shape:
 
+class Animal:
+    def __init__(self,name):
+        self.name = name
+    
+    def show_details(self):
+        print(self.name)
+class Human(Animal):
+    def show_details(self):
+        print(self.name)
 
+lion = Animal('Lion')
+Akarsh = Human('Akarsh')
+lion.show_details()
+Akarsh.show_details()

@@ -148,7 +148,8 @@
 
 # While loop in python
 
-for i in range(1,11,1):
-        if i == 2 or i == 1 or i == 9:
-                continue
-        print(i);
+# for i in range(1,11,1):
+#         if i == 2 or i == 1 or i == 9:
+#                 continue
+#         print(i);
+
