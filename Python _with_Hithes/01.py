@@ -108,3 +108,9 @@
 #     print(name[i])
 # Question 5, 
 
+# def check_num(a):
+#     if a <= 16 and a >= 1:
+#         print("Right")
+#     else:
+#         check_num(int(input('Enter the right num__')))
+# check_num(int(input('Enter the nuber_-')))

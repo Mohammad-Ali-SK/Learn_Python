@@ -94,7 +94,3 @@
 # You can change list to set
 
 # Dictionary Methods------------------------------------------6.0)
-a = {1:"Ali", 2:'Sumon', 3:"Amir"}
-
-for i in a:
-    print(a[i])

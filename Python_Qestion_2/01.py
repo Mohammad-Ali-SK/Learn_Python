@@ -19,18 +19,9 @@
 
 # Question---------------------------------------------1.2)
 # Arrange string characters such that lowweercase letters should come first in another string
-# a = "you BroThEr HoW ArE You"
 
-# b = ''
-# for i in n:
-#     if i.islower():
-#         b = b + i
-# for i in n:
-#     if i.isupper():
-#         b = b + i
-# print(b)
-
-
+    
+    
 #Question -------------------------------------------1.3)
 # Count all letters , digits , and special symbols from a given string
 # a = 'P@#yn26at^&i5ve'
@@ -228,6 +219,62 @@
 
 # Question ------------------------------------------------------4.0)
 # Write a python program to combibe two dictionary by addding values for common keys
+# a = {1:10,2:20,3:30,4:40}
+# b = {7:70,2:80,9:90}
+
+# for i in b.keys():
+#     if i in a.keys():
+#         a[i] = a[i] + b[i]
+#     else:
+#         a[i] = b[i]
+# print(a)
+
+
+
+
+
+# My Home Work in python Language --------------
+# a = 'Mohammad ALi sk'
+# print(len(a))
+# vol = 0
+# con = 0
+# for i in range(len(a)):
+#     if a[i] in 'AaEeIiOoUu':
+#         vol = vol + 1
+#     elif a[i] == ' ':
+#         continue
+#     else:
+#         con = con + 1
+
+# print(vol,con)
+
+
+# list = [12,34,56,2,39, 33, 899,89]
+# max = 0
+# index = 0
+# max2 = 0
+# index2 = 0
+
+# for i in range(len(list)):
+#     if list[i] > max:
+#         max2 = max 
+#         max = list[i]
+#         index2 = index
+#         index = i
+#     elif list[i] > max2:
+#         max2 = list[i]
+# print(f'Max Number is {max} and Second MAX is {max2}')
+
+# a = [1,2,3,4,5,6,7,8]
+# for i in range(len(a) -1):
+#     if a[i] <= a[i+1]:
+#         continue
+#     else:
+#         print('Your list is not shorted')
+#         break
+# else:
+#     print('Your is shorted')
+
 a = {1:10,2:20,3:30,4:40}
 b = {7:70,2:80,9:90}
 

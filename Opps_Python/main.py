@@ -101,17 +101,17 @@
 
 # class shape:
 
-class Animal:
-    def __init__(self,name):
-        self.name = name
+# class Animal:
+#     def __init__(self,name):
+#         self.name = name
     
-    def show_details(self):
-        print(self.name)
-class Human(Animal):
-    def show_details(self):
-        print(self.name)
+#     def show_details(self):
+#         print(self.name)
+# class Human(Animal):
+#     def show_details(self):
+#         print(self.name)
 
-lion = Animal('Lion')
-Akarsh = Human('Akarsh')
-lion.show_details()
-Akarsh.show_details()
+# lion = Animal('Lion')
+# Akarsh = Human('Akarsh')
+# lion.show_details()
+# Akarsh.show_details()
