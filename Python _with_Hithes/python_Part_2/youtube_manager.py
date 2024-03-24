@@ -16,7 +16,7 @@
 # Another Method and very easy method--------------------
 
 # with open('tex 
-# import json
+import json
 
 # Create a new project in python new way---------------
 def load_data():
