@@ -8,48 +8,50 @@
 #     print(f"{b} is greater than {a}")
 
 # Question ----------------------------------------------2.0)
+# while True:
+#     gen = input('Enter the gen__')
+#     if gen in 'MALEmale':
+#         print('sir')
+#     elif gen in 'FEMALEfemale':
+#         print('Mam')
+#     elif gen in 'CHILDRENchildren':
+#         print('Baby')
+#     else:
+#         print('Enter right gen.')
 
-# gender = input("Enter the gender - ")
 
-# if gender == "Male":
-#     print(f"God morning sir")
-# elif gender == "Female":
-#     print(f"Good morning Madam")
-# else:
-#     print("Please type right gender (First letter is capital)")
 
 # Question ------------------------------------------------3.0)
 
-# num = int(input("Enter your number : -"))
-
-# if num%2 == 0:
-#     print("Even")
-# else:
-#     print("Odd")
+# while True:
+#     num = int(input('Enter the number you want__'))
+#     if num % 2 == 0:
+#         print('Even')
+#     else:
+#         print('Odd')
 
 # Question ---------------------------------------------4.0)
-
-# name = input("Enter your name_")
-# age = int(input("Enter your age _"))
-
-# if age >= 18:
-#     print(f" you can vote")
-# else:
-#     if age < 18 :
-#         print("You'r under 18")
+# while True:
+#     name = input('Enter the user name___')
+#     age = int(input('Enter your age__'))
+    
+#     if age >= 18:
+#         print(f'{name} your are valid voter.')
+#     elif age < 18 and age > 0:
+#         print('NOt')
 #     else:
-#         print("Enter valid age")
-
+#         print('Enter currect age..')
 
 # Question ------------------------------------------5.0)
 
-# year = int(input("Enter the year _"))
-# if year %4 == 0 and year %100 != 0:
-#     print("leap")
-# elif year %100 == 0 and year %400 == 0:
-#     print("leap")
-# else:
-#     print("Not leap")
+# while True:
+#     year = int(input('Enter the year to check__'))
+#     if year%4 == 0 and year%100 != 0:
+#         print('leap')
+#     elif year%100 == 0 and year%400 == 0:
+#         print('Leap')
+#     else:
+#         print('Not a leap year')
 
 # Question ------------------------------------------6.0)
 
